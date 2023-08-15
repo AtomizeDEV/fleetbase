@@ -10,6 +10,10 @@
 
 # misc
 /.env*
+<<<<<<< HEAD
+=======
+/environments/.env*
+>>>>>>> ebad659 (build should work)
 /.pnp*
 /.sass-cache
 /.eslintcache

@@ -1,5 +1,9 @@
 <ContentPanel @title="Queue" @open={{true}} @pad={{true}} @panelBodyClass="bg-white dark:bg-gray-800">
+<<<<<<< HEAD
     <InputGroup @name="Driver" @helpText="Select the default queue driver for Fastlane to use.">
+=======
+    <InputGroup @name="Driver" @helpText="Select the default queue driver for Fleetbase to use.">
+>>>>>>> ebad659 (build should work)
         <Select @options={{this.connections}} @value={{this.driver}} @onSelect={{this.setDriver}} @placeholder="Select queue driver" disabled={{this.isLoading}} class="w-full" />
     </InputGroup>
     {{#if (eq this.driver "beanstalkd")}}
