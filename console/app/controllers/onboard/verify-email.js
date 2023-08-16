@@ -137,7 +137,7 @@ export default class OnboardVerifyEmailController extends Controller {
             .then((response) => {
                 if (response.status === 'success') {
                     this.notifications.success('Email successfully verified!');
-                    this.notifications.info('Welcome to Fleetbase!');
+                    this.notifications.info('Welcome to Fastlane!');
 
                     return this.transitionToRoute('console');
                 }
