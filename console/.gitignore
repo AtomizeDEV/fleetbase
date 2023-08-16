@@ -10,7 +10,6 @@
 
 # misc
 /.env*
-/environments/.env*
 /.pnp*
 /.sass-cache
 /.eslintcache
