@@ -48,3 +48,11 @@
 	path = packages/pallet-engine
 	url = git@github.com:fleetbase/pallet-engine.git
 	branch = dev-main
+[submodule "packages/billing-api"]
+	path = packages/billing-api
+	url = git@github.com:fleetbase/billing-api.git
+	branch = main
+[submodule "packages/billing-engine"]
+	path = packages/billing-engine
+	url = git@github.com:fleetbase/billing-engine.git
+	branch = main
