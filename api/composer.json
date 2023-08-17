@@ -48,7 +48,7 @@
             "url": "../packages/storefront-api"
         },
         {
-            "url": "https://github.com/AtomizeDEV/billing-api.git",
+            "url": "https://github.com/atomizedev/billing-api.git",
             "type": "git"
         }
     ],
