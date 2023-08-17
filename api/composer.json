@@ -12,7 +12,7 @@
         "fleetbase/core-api": "^1.2.4",
         "fleetbase/fleetops-api": "^1.1.2",
         "fleetbase/storefront-api": "^1.1.0",
-        "atomizedev/billing-api": "main",
+        "fleetbase/billing-api": "^0.0.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",
@@ -48,7 +48,7 @@
             "url": "../packages/storefront-api"
         },
         {
-            "url": "https://github.com/atomizedev/billing-api.git",
+            "url": "https://github.com/fleetbase/billing-api.git",
             "type": "git"
         }
     ],
