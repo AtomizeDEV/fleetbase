@@ -48,8 +48,8 @@
             "url": "../packages/storefront-api"
         },
         {
-            "type": "path",
-            "url": "../packages/billing-api"
+            "url": "https://github.com/fleetbase/billing-api.git",
+            "type": "git"
         }
     ],
     "autoload": {
