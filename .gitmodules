@@ -1,3 +1,6 @@
+[submodule "console"]
+	path = console
+	url = git@github.com:AtomizeDEV/fleetbase-console.git
 [submodule "packages/core-api"]
 	path = packages/core-api
 	url = git@github.com:fleetbase/core-api.git
@@ -48,6 +51,3 @@
 	path = packages/pallet-engine
 	url = git@github.com:fleetbase/pallet-engine.git
 	branch = main
-[submodule "console"]
-	path = console
-	url = git@github.com:AtomizeDEV/fleetbase-console.git
