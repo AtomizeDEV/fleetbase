@@ -10,10 +10,7 @@
 
 # misc
 /.env*
-<<<<<<< HEAD
-=======
 /environments/.env*
->>>>>>> ebad659 (build should work)
 /.pnp*
 /.sass-cache
 /.eslintcache
@@ -24,6 +21,7 @@
 /testem.log
 /yarn-error.log
 /.npmrc
+/pnpm-lock.yaml
 
 # ember-try
 /.node_modules.ember-try/
