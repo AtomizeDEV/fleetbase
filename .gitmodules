@@ -52,3 +52,6 @@
 	path = packages/pallet-engine
 	url = git@github.com:fleetbase/pallet-engine.git
 	branch = main
+[submodule "fleetbase-console"]
+	path = fleetbase-console
+	url = git@github.com:AtomizeDEV/fleetbase-console.git
