@@ -44,6 +44,10 @@
 	path = packages/fleetops-data
 	url = git@github.com:fleetbase/fleetops-data.git
 	branch = main
+[submodule "socket"]
+	path = socket
+	url = git@github.com:fleetbase/socket.git
+	branch = main
 [submodule "packages/pallet-api"]
 	path = packages/pallet-api
 	url = git@github.com:fleetbase/pallet-api.git
