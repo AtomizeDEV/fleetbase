@@ -20,7 +20,7 @@
 	branch = main
 [submodule "packages/storefront-engine"]
 	path = packages/storefront-engine
-	url = git@github.com:AtomizeDEV/storefront-engine.git
+	url = git@github.com:fleetbase/storefront-engine.git
 	branch = main
 [submodule "packages/iam-engine"]
 	path = packages/iam-engine
