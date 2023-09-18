@@ -143,6 +143,7 @@ jobs:
     - name: Check for _GITHUB_AUTH_TOKEN and create .npmrc
       run: |
         if [[ -n "${{ secrets._GITHUB_AUTH_TOKEN }}" ]]; then
+          echo "@fleetbase:registry=https://npm.pkg.github.com/" > .npmrc
           echo "//npm.pkg.github.com/:_authToken=${{ secrets._GITHUB_AUTH_TOKEN }}" > .npmrc
         fi
       working-directory: ./console
