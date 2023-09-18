@@ -62,3 +62,6 @@
 	path = packages/pallet-engine
 	url = git@github.com:fleetbase/pallet-engine.git
 	branch = main
+[submodule "packages/billing-engine"]
+	path = packages/billing-engine
+	url = git@github.com:AtomizeDEV/billing-engine.git
