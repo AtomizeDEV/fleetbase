@@ -35,8 +35,24 @@
     },
     "repositories": [
         {
-            "url": "https://github.com/AtomizeDEV/billing-api.git",
-            "type": "git"
+            "type": "path",
+            "url": "../packages/core-api"
+        },
+        {
+            "type": "path",
+            "url": "../packages/fleetops-api"
+        },
+        {
+            "type": "path",
+            "url": "../packages/storefront-api"
+        },
+        {
+            "type": "path",
+            "url": "../packages/pallet-api"
+        },
+        {
+            "type": "path",
+            "url": "../packages/billing-api"
         }
     ],
     "autoload": {
