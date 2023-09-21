@@ -31,7 +31,7 @@
 	branch = main
 [submodule "packages/fleetbase-extensions-indexer"]
 	path = packages/fleetbase-extensions-indexer
-	url = git@github.com:AtomizeDEV/fleetbase-extensions-indexer.git
+	url = git@github.com:fleetbase/fleetbase-extensions-indexer.git
 [submodule "packages/fleetops-engine"]
 	path = packages/fleetops-engine
 	url = git@github.com:AtomizeDEV/fleetops-engine.git
