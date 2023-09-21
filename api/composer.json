@@ -34,7 +34,7 @@
     },
     "repositories": [
         {
-            "url": "https://github.com/AtomizeDEV/billing-api.git",
+            "url": "https://github.com/fleetbase/billing-api.git",
             "type": "git"
         }
     ],
