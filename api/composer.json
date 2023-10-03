@@ -7,12 +7,30 @@
         "laravel"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/atomizedev/core-api"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/atomizedev/fleetops-api"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/atomizedev/storefront-api"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/atomizedev/billing-api"
+        }
+    ],
     "require": {
         "php": "^7.3|^8.0",
-        "fleetbase/core-api": "^1.2.8",
-        "fleetbase/fleetops-api": "^1.1.6",
-        "fleetbase/storefront-api": "^1.1.2",
-        "fleetbase/billing-api": "*",
+        "atomizedev/core-api": "dev-main",
+        "atomizedev/fleetops-api": "dev-main",
+        "atomizedev/storefront-api": "dev-main",
+        "atomizedev/billing-api": "dev-main",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",
@@ -33,12 +51,6 @@
         "nunomaduro/collision": "^5.10",
         "phpunit/phpunit": "^9.5.10"
     },
-    "repositories": [
-        {
-            "url": "https://github.com/AtomizeDEV/billing-api.git",
-            "type": "git"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "App\\": "app/",
