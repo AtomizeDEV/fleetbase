@@ -9,8 +9,6 @@
 /node_modules/
 
 # misc
-/.env*
-/environments/.env*
 /.pnp*
 /.sass-cache
 /.eslintcache
