@@ -17,8 +17,7 @@ module.exports = function (environment) {
         },
 
         APP: {
-            // Here you can pass flags/options to your application instance
-            // when it is created
+            showExtensionsLink: toBoolean(getenv('SHOW_EXTENSIONS_LINK', true)),
         },
 
         API: {
