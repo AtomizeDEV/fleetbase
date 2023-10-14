@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { setupTest } from '@fleetbase/console/tests/helpers';
+import { setupTest } from '@atomizedev/console/tests/helpers';
 
 module('Unit | Route | invite/for-driver', function (hooks) {
     setupTest(hooks);

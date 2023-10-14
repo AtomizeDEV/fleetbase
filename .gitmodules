@@ -4,9 +4,6 @@
 [submodule "packages/storefront"]
 	path = packages/storefront
 	url = git@github.com:AtomizeDEV/storefront.git
-[submodule "packages/pallet"]
-	path = packages/pallet
-	url = git@github.com:AtomizeDEV/pallet.git
 [submodule "packages/core-api"]
 	path = packages/core-api
 	url = git@github.com:AtomizeDEV/core-api.git
@@ -29,18 +26,16 @@
 [submodule "packages/fleetbase-extensions-indexer"]
 	path = packages/fleetbase-extensions-indexer
 	url = git@github.com:fleetbase/fleetbase-extensions-indexer.git
+[submodule "packages/fleetops-data"]
+	path = packages/fleetops-data
+	url = git@github.com:AtomizeDEV/fleetops-data.git
+	branch = main
 [submodule "docs/guides"]
 	path = docs/guides
 	url = git@github.com:AtomizeDEV/guides.git
 [submodule "docs/api-reference"]
 	path = docs/api-reference
 	url = git@github.com:AtomizeDEV/api-reference.git
-[submodule "packages/billing-engine"]
-	path = packages/billing-engine
-	url = git@github.com:AtomizeDEV/billing-engine.git
-[submodule "packages/billing-api"]
-	path = packages/billing-api
-	url = git@github.com:AtomizeDEV/billing-api.git
-[submodule "packages/fleetops-data"]
-	path = packages/fleetops-data
-	url = git@github.com:AtomizeDEV/fleetops-data.git
+[submodule "packages/billing"]
+	path = packages/billing
+	url = git@github.com:AtomizeDEV/billing.git

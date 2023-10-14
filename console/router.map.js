@@ -1,5 +1,5 @@
 import EmberRouter from '@ember/routing/router';
-import config from '@fleetbase/console/config/environment';
+import config from '@atomizedev/console/config/environment';
 
 export default class Router extends EmberRouter {
     location = config.locationType;
@@ -22,6 +22,7 @@ Router.map(function () {
     this.route('console', { path: '/' }, function () {
         this.route('home', { path: '/' });
         this.route('extensions');
+        this.route('notifications');
         this.route('account', function () {
             this.route('virtual', { path: '/:slug/:view' });
         });
@@ -41,6 +42,7 @@ Router.map(function () {
                 this.route('socket');
             });
             this.route('branding');
+            this.route('notifications');
             this.route('virtual', { path: '/:slug/:view' });
         });
     });

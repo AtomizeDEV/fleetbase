@@ -3,9 +3,9 @@ import { computed } from '@ember/object';
 import { not } from '@ember/object/computed';
 import { getOwner } from '@ember/application';
 import { format, formatDistanceToNow } from 'date-fns';
-import ENV from '@fleetbase/console/config/environment';
-import isVideoFile from '@fleetbase/ember-core/utils/is-video-file';
-import isImageFile from '@fleetbase/ember-core/utils/is-image-file';
+import ENV from '@atomizedev/console/config/environment';
+import isVideoFile from '@atomizedev/ember-core/utils/is-video-file';
+import isImageFile from '@atomizedev/ember-core/utils/is-image-file';
 
 export default class FileModel extends Model {
     /** @ids */

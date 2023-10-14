@@ -1,7 +1,7 @@
 import Application from '@ember/application';
 
-import config from '@fleetbase/console/config/environment';
-import { initialize } from '@fleetbase/console/initializers/initialize-random-uuid-polyfill';
+import config from '@atomizedev/console/config/environment';
+import { initialize } from '@atomizedev/console/initializers/initialize-random-uuid-polyfill';
 import { module, test } from 'qunit';
 import Resolver from 'ember-resolver';
 import { run } from '@ember/runloop';

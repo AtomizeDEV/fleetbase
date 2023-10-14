@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { setupTest } from '@fleetbase/console/tests/helpers';
+import { setupTest } from '@atomizedev/console/tests/helpers';
 
 module('Unit | Controller | console/admin/config/database', function (hooks) {
     setupTest(hooks);

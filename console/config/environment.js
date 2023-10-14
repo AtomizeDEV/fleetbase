@@ -5,7 +5,7 @@ const fixApiHost = require('./utils/fix-api-host');
 
 module.exports = function (environment) {
     let ENV = {
-        modulePrefix: '@fleetbase/console',
+        modulePrefix: '@atomizedev/console',
         environment,
         rootURL: '/',
         locationType: 'history',
@@ -17,17 +17,16 @@ module.exports = function (environment) {
         },
 
         APP: {
-            // Here you can pass flags/options to your application instance
-            // when it is created
+            showExtensionsLink: toBoolean(getenv('SHOW_EXTENSIONS_LINK', true)),
         },
 
         API: {
-            host: fixApiHost(getenv('API_HOST'), getenv('API_SECURE')),
+            host: fixApiHost(getenv('API_HOST'), toBoolean(getenv('API_SECURE'))),
             namespace: getenv('API_NAMESPACE', 'int/v1'),
         },
 
         osrm: {
-            host: getenv('OSRM_HOST', 'https://bundle.routing.fleetbase.io'),
+            host: getenv('OSRM_HOST', 'https://osrm.fastlane.ee'),
             servers: getenv('OSRM_SERVERS', '').split(',').filter(Boolean),
         },
 
@@ -44,7 +43,8 @@ module.exports = function (environment) {
             driverImage: getenv('DEFAULT_DRIVER_IMAGE', 'https://s3.ap-southeast-1.amazonaws.com/flb-assets/static/no-avatar.png'),
             userImage: getenv('DEFAULT_USER_IMAGE', 'https://s3.ap-southeast-1.amazonaws.com/flb-assets/static/no-avatar.png'),
             contactImage: getenv('DEFAULT_CONTACT_IMAGE', 'https://s3.ap-southeast-1.amazonaws.com/flb-assets/static/no-avatar.png'),
-            vehicleImage: getenv('DEFAULT_VEHICLE_IMAGE', 'https://flb-assets.s3.ap-southeast-1.amazonaws.com/static/vehicle-icons/light_commercial_van.svg'),
+            vendorImage: getenv('DEFAULT_VENDOR_IMAGE', 'https://s3.ap-southeast-1.amazonaws.com/flb-assets/static/no-avatar.png'),
+            vehicleImage: getenv('DEFAULT_VEHICLE_IMAGE', 'https://s3.ap-southeast-1.amazonaws.com/flb-assets/static/vehicle-placeholder.png'),
             vehicleAvatar: getenv('DEFAUL_VEHICLE_AVATAR', 'https://flb-assets.s3-ap-southeast-1.amazonaws.com/static/vehicle-icons/mini_bus.svg'),
         },
 
@@ -53,7 +53,7 @@ module.exports = function (environment) {
         },
 
         'ember-local-storage': {
-            namespace: '@fleetbase',
+            namespace: '@atomizedev',
             keyDelimiter: '/',
             includeEmberDataSupport: true,
         },
