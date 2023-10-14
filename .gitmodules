@@ -41,3 +41,6 @@
 [submodule "packages/billing-api"]
 	path = packages/billing-api
 	url = git@github.com:AtomizeDEV/billing-api.git
+[submodule "packages/fleetops-data"]
+	path = packages/fleetops-data
+	url = git@github.com:AtomizeDEV/fleetops-data.git
