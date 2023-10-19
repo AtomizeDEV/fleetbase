@@ -59,7 +59,7 @@ Router.map(function () {
             path: 'iam'
         });
 
-        this.mount('@fleetbase/storefront-engine', {
+        this.mount('@atomizedev/storefront-engine', {
             as: 'storefront',
             path: 'storefront'
         });
