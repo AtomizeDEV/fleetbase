@@ -31,7 +31,7 @@
         "@fleetbase/iam-engine": "git@github.com/AtomizeDEV/iam-engine.git",
         "@fleetbase/fleetops-engine": "git@github.com/AtomizeDEV/fleetops-engine.git", 
         "@fleetbase/fleetops-data": "git@github.com/AtomizeDEV/fleetops-data.git", 
-        "@fleetbase/storefront-engine": "git@github.com/AtomizeDEV/storefront-engine.git", 
+        "@atomizedev/storefront-engine": "git@github.com/AtomizeDEV/storefront-engine.git", 
         "@fleetbase/leaflet-routing-machine": "git@github.com/AtomizeDEV/leaflet-routing-machine.git",
         "@fleetbase/billing-engine": "git@github.com/AtomizeDEV/billing-engine.git", 
         "@fortawesome/ember-fontawesome": "^0.4.1",
