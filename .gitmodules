@@ -35,12 +35,9 @@
 [submodule "docs/api-reference"]
 	path = docs/api-reference
 	url = git@github.com:AtomizeDEV/api-reference.git
-[submodule "packages/billing-engine"]
-	path = packages/billing-engine
-	url = git@github.com:AtomizeDEV/billing-engine.git
-[submodule "packages/billing-api"]
-	path = packages/billing-api
-	url = git@github.com:AtomizeDEV/billing-api.git
+[submodule "packages/billing"]
+	path = packages/billing
+	url = git@github.com:AtomizeDEV/billing.git
 [submodule "packages/fleetops-data"]
 	path = packages/fleetops-data
 	url = git@github.com:AtomizeDEV/fleetops-data.git
