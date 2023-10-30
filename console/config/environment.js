@@ -5,7 +5,7 @@ const fixApiHost = require('./utils/fix-api-host');
 
 module.exports = function (environment) {
     let ENV = {
-        modulePrefix: '@fleetbase/console',
+        modulePrefix: '@atomizedev/console',
         environment,
         rootURL: '/',
         locationType: 'history',
@@ -21,7 +21,7 @@ module.exports = function (environment) {
         },
 
         API: {
-            host: fixApiHost(getenv('API_HOST'), getenv('API_SECURE')),
+            host: fixApiHost(getenv('API_HOST'), toBoolean(getenv('API_SECURE'))),
             namespace: getenv('API_NAMESPACE', 'int/v1'),
         },
 

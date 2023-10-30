@@ -250,7 +250,7 @@ Fleetbase Extensions are built using both a backend PHP package and a frontend E
 <ul>
   <li><strong>Backend</strong>: The backend of an extension is developed as a PHP package. This package should utilize the composer package <code>fleetbase/core-api</code>, which provides core API functionalities, making it easier to integrate your extension with Fleetbase's backend.</li>
   
-  <li><strong>Engine</strong>: The frontend of an extension is built as an Ember Engine Addon. The Addon must require the packages <code>@fleetbase/ember-core</code> and <code>@fleetbase/ember-ui</code>. The <code>@fleetbase/ember-core</code> package provides core services and utilities that help to align your extension with Fleetbase's frontend. The <code>@fleetbase/ember-ui</code> package, on the other hand, supplies all the stylesheets, components, and template helpers needed to design a Fleetbase extension that seamlessly matches the look and feel of the Fleetbase UI.</li>
+  <li><strong>Engine</strong>: The frontend of an extension is built as an Ember Engine Addon. The Addon must require the packages <code>@atomizedev/ember-core</code> and <code>@atomizedev/ember-ui</code>. The <code>@atomizedev/ember-core</code> package provides core services and utilities that help to align your extension with Fleetbase's frontend. The <code>@atomizedev/ember-ui</code> package, on the other hand, supplies all the stylesheets, components, and template helpers needed to design a Fleetbase extension that seamlessly matches the look and feel of the Fleetbase UI.</li>
 </ul>
 
 ### Building a Fleetbase Extension
@@ -259,7 +259,7 @@ To create a Fleetbase extension, follow these steps:
 <ul>
   <li><strong>Backend PHP Package Creation</strong>: Begin by creating a backend PHP package. Make sure to use the composer package <code>fleetbase/core-api</code> to ensure smooth integration with Fleetbase's backend.</li>
   
-  <li><strong>Frontend Ember Engine Addon</strong>: Next, you need to create the frontend of the extension using Ember Engine. Be sure to include the <code>@fleetbase/ember-core</code> and <code>@fleetbase/ember-ui</code> packages. These packages provide necessary services, utilities, and design components for aligning your extension with Fleetbase's UI.</li>
+  <li><strong>Frontend Ember Engine Addon</strong>: Next, you need to create the frontend of the extension using Ember Engine. Be sure to include the <code>@atomizedev/ember-core</code> and <code>@atomizedev/ember-ui</code> packages. These packages provide necessary services, utilities, and design components for aligning your extension with Fleetbase's UI.</li>
 
   <li><strong>Integrate Your Extension</strong>: Once you have the backend and frontend ready, you can integrate your extension into Fleetbase by installing it via the respective package managers. In the future you will be able to publish your extension to the Fleetbase extensions repository making it available to all instances of Fleetbase with the ability to even sell your extension.</li>
 </ul>

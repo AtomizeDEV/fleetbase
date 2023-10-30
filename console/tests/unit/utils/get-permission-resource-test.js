@@ -1,4 +1,4 @@
-import getPermissionResource from '@fleetbase/console/utils/get-permission-resource';
+import getPermissionResource from '@atomizedev/console/utils/get-permission-resource';
 import { module, test } from 'qunit';
 
 module('Unit | Utility | get-permission-resource', function () {

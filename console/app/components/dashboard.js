@@ -1,5 +1,5 @@
 import Component from '@glimmer/component';
-import loadExtensions from '@fleetbase/ember-core/utils/load-extensions';
+import loadExtensions from '@atomizedev/ember-core/utils/load-extensions';
 import { inject as service } from '@ember/service';
 import { action } from '@ember/object';
 import { isArray } from '@ember/array';

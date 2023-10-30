@@ -1,10 +1,10 @@
 import Component from '@glimmer/component';
 import { computed } from '@ember/object';
-import formatCurrency from '@fleetbase/ember-ui/utils/format-currency';
-import formatMeters from '@fleetbase/ember-ui/utils/format-meters';
-import formatBytes from '@fleetbase/ember-ui/utils/format-bytes';
-import formatDuration from '@fleetbase/ember-ui/utils/format-duration';
-import formatDate from '@fleetbase/ember-ui/utils/format-date';
+import formatCurrency from '@atomizedev/ember-ui/utils/format-currency';
+import formatMeters from '@atomizedev/ember-ui/utils/format-meters';
+import formatBytes from '@atomizedev/ember-ui/utils/format-bytes';
+import formatDuration from '@atomizedev/ember-ui/utils/format-duration';
+import formatDate from '@atomizedev/ember-ui/utils/format-date';
 
 export default class DashboardCountComponent extends Component {
     @computed('args.options.{currency,dateFormat,format,value}') get displayValue() {
