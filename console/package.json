@@ -124,6 +124,13 @@
     "ember": {
         "edition": "octane"
     },
+    "pnpm": {
+        "overrides": {
+            "@atomizedev/fleetops-data": "git@github.com/AtomizeDEV/fleetops-data.git",
+            "@atomizedev/ember-core": "git@github.com/AtomizeDEV/ember-core.git",
+            "@atomizedev/ember-ui": "git@github.com/AtomizeDEV/ember-ui.git"
+        }
+    },
     "prettier": {
         "trailingComma": "es5",
         "tabWidth": 4,
