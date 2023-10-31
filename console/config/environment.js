@@ -52,7 +52,7 @@ module.exports = function (environment) {
         },
 
         'ember-local-storage': {
-            namespace: '@fleetbase',
+            namespace: '@atomizedev',
             keyDelimiter: '/',
             includeEmberDataSupport: true,
         },
