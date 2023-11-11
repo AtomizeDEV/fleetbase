@@ -32,7 +32,7 @@
         "@atomizedev/fleetops-engine": "git@github.com/AtomizeDEV/fleetops-engine.git", 
         "@atomizedev/fleetops-data": "git@github.com/AtomizeDEV/fleetops-data.git", 
         "@atomizedev/storefront-engine": "git@github.com/AtomizeDEV/storefront-engine.git", 
-        "@atomizedev/leaflet-routing-machine": "git@github.com/AtomizeDEV/leaflet-routing-machine.git", 
+        "@fleetbase/leaflet-routing-machine": "^3.2.16",
         "@atomizedev/billing-engine": "git@github.com/AtomizeDEV/billing-engine.git", 
         "@fortawesome/ember-fontawesome": "^0.4.1",
         "ember-intl": "^6.0.0-beta.6",
