@@ -1,0 +1,9 @@
+config:
+  aws:profile: fastlane
+  aws:region: eu-central-1
+  fastlane:api_domain: api.fastlane.ee
+  fastlane:console_domain: app.fastlane.ee
+  fastlane:github_repository: AtomizeDEV/fleetbase
+  fastlane:rds_instance_type: db.t4g.micro
+  fastlane:rds_multiaz: "false"
+  fastlane:socket_cluster_domain: socket.fastlane.ee
