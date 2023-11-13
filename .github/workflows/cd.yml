@@ -73,7 +73,7 @@ jobs:
       run: |-
           set -eu
           # run deploy.sh script before deployments
-          env "ECS_RUN.SERVICE=app" "ECS_RUN.LAUNCH_TYPE=FARGATE" ./ecs-tool run --image_tag '{container_name}-${{ env.VERSION }}' --cluster ${{ env.PROJECT }}-${{ env.STACK }} --task_definition ${{ env.PROJECT }}-${{ env.STACK }}-app --container_name app ./deploy.sh
+          env "ECS_RUN.SERVICE=app" "ECS_RUN.LAUNCH_TYPE=FARGATE" ./ecs-tool run -l "ecs-tool" --image_tag '{container_name}-${{ env.VERSION }}' --cluster ${{ env.PROJECT }}-${{ env.STACK }} --task_definition ${{ env.PROJECT }}-${{ env.STACK }}-app --container_name app ./deploy.sh
           ./ecs-tool deploy --image_tag '{container_name}-${{ env.VERSION }}' --cluster ${{ env.PROJECT }}-${{ env.STACK }} -s app -s scheduler -s events
 
   build_frontend:
@@ -143,7 +143,6 @@ jobs:
     - name: Check for _GITHUB_AUTH_TOKEN and create .npmrc
       run: |
         if [[ -n "${{ secrets._GITHUB_AUTH_TOKEN }}" ]]; then
-          echo "@fleetbase:registry=https://npm.pkg.github.com/" > .npmrc
           echo "//npm.pkg.github.com/:_authToken=${{ secrets._GITHUB_AUTH_TOKEN }}" > .npmrc
         fi
       working-directory: ./console
@@ -161,6 +160,10 @@ jobs:
     
     - name: Deploy Console 🚀
       run: |
-          DEPLOY_BUCKET=${{ env.PROJECT }}-${{ env.STACK }}
+          set -u
+
+          DEPLOY_BUCKET=${STATIC_DEPLOY_BUCKET:-${{ env.PROJECT }}-${{ env.STACK }}}
+          # this value will come from the dotenv above
+          echo "Deploying to $DEPLOY_BUCKET"
           wget -O- https://github.com/bep/s3deploy/releases/download/v2.11.0/s3deploy_2.11.0_linux-amd64.tar.gz | tar xzv -f - s3deploy
           ./s3deploy -region ${AWS_REGION} -source console/dist -bucket ${DEPLOY_BUCKET}
