@@ -29,7 +29,6 @@
         "php": "^7.3|^8.0",
         "atomizedev/core-api": "dev-main",
         "atomizedev/fleetops": "dev-main",
-        "atomizedev/fleetops-api": "dev-main",
         "atomizedev/storefront-api": "dev-main",
         "atomizedev/billing-api": "dev-main",
         "fruitcake/laravel-cors": "^2.0",
