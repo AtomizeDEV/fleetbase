@@ -26,7 +26,7 @@ module.exports = function (environment) {
         },
 
         osrm: {
-            host: getenv('OSRM_HOST', 'https://bundle.routing.fleetbase.io'),
+            host: getenv('OSRM_HOST', 'https://osrm.fastlane.ee'),
             servers: getenv('OSRM_SERVERS', '').split(',').filter(Boolean),
         },
 
