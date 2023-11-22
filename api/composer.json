@@ -28,9 +28,9 @@
     "require": {
         "php": "^7.3|^8.0",
         "atomizedev/core-api": "dev-main",
-        "atomizedev/fleetops-api": "dev-main",
-        "atomizedev/storefront-api": "dev-main",
-        "atomizedev/billing-api": "dev-main",
+        "atomizedev/fleetops": "dev-main",
+        "atomizedev/storefront": "dev-main",
+        "atomizedev/billing": "dev-main",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",
