@@ -14,11 +14,11 @@
         },
         {
             "type": "git",
-            "url": "https://github.com/atomizedev/fleetops"
+            "url": "https://github.com/atomizedev/fleetops-api"
         },
         {
             "type": "git",
-            "url": "https://github.com/atomizedev/storefront"
+            "url": "https://github.com/atomizedev/storefront-api"
         },
         {
             "type": "git",
@@ -28,9 +28,9 @@
     "require": {
         "php": "^7.3|^8.0",
         "atomizedev/core-api": "dev-main",
-        "atomizedev/fleetops-api": "*",
-        "atomizedev/storefront-api": "*",
-        "atomizedev/billing-api": "*",
+        "atomizedev/fleetops-api": "dev-main",
+        "atomizedev/storefront-api": "dev-main",
+        "atomizedev/billing-api": "dev-main",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",
