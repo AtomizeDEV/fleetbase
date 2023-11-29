@@ -1,6 +1,6 @@
 {
     "name": "@atomizedev/console",
-    "version": "0.2.9",
+    "version": "0.3.1",
     "private": true,
     "description": "AtomizeDEV Console",
     "repository": "",
@@ -34,7 +34,6 @@
         "@atomizedev/storefront-engine": "git@github.com/AtomizeDEV/storefront-engine.git", 
         "@atomizedev/billing-engine": "git@github.com/AtomizeDEV/billing.git", 
         "@fleetbase/leaflet-routing-machine": "^3.2.16",
-        "@fortawesome/ember-fontawesome": "^0.4.1",
         "@fortawesome/ember-fontawesome": "^0.4.1",
         "ember-changeset": "^4.1.2",
         "ember-changeset-validations": "^4.1.1",

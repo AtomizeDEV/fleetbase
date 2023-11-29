@@ -29,6 +29,10 @@
 [submodule "packages/fleetbase-extensions-indexer"]
 	path = packages/fleetbase-extensions-indexer
 	url = git@github.com:fleetbase/fleetbase-extensions-indexer.git
+[submodule "packages/fleetops-data"]
+	path = packages/fleetops-data
+	url = git@github.com:AtomizeDEV/fleetops-data.git
+	branch = main
 [submodule "docs/guides"]
 	path = docs/guides
 	url = git@github.com:AtomizeDEV/guides.git
@@ -38,6 +42,9 @@
 [submodule "packages/billing"]
 	path = packages/billing
 	url = git@github.com:AtomizeDEV/billing.git
-[submodule "packages/fleetops-data"]
-	path = packages/fleetops-data
-	url = git@github.com:AtomizeDEV/fleetops-data.git
+[submodule "verdaccio/plugins/verdaccio-composer-middleware"]
+	path = verdaccio/plugins/verdaccio-composer-middleware
+	url = git@github.com:AtomizeDEV/verdaccio-composer-middleware.git
+[submodule "verdaccio/plugins/verdaccio-fleetbase-extensions-middleware"]
+	path = verdaccio/plugins/verdaccio-fleetbase-extensions-middleware
+	url = git@github.com:AtomizeDEV/verdaccio-fleetbase-extensions-middleware.git
