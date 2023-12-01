@@ -4,9 +4,6 @@
 [submodule "packages/storefront"]
 	path = packages/storefront
 	url = git@github.com:AtomizeDEV/storefront.git
-[submodule "packages/pallet"]
-	path = packages/pallet
-	url = git@github.com:AtomizeDEV/pallet.git
 [submodule "packages/core-api"]
 	path = packages/core-api
 	url = git@github.com:AtomizeDEV/core-api.git
