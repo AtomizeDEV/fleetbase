@@ -60,6 +60,10 @@ return [
             'transport' => 'postmark',
         ],
 
+        'sendgrid' => [
+            'transport' => 'sendgrid',
+        ],
+
         'sendmail' => [
             'transport' => 'sendmail',
             'path' => env('MAIL_SENDMAIL_PATH', '/usr/sbin/sendmail -t -i'),
@@ -95,8 +99,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@fleetbase.io'),
-        'name' => env('MAIL_FROM_NAME', 'Fleetbase'),
+        'address' => env('MAIL_FROM_ADDRESS', 'hello@fastlane.ee'),
+        'name' => env('MAIL_FROM_NAME', env('APP_NAME', 'Fastlane')),
     ],
 
     /*
