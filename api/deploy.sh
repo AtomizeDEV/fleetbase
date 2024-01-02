@@ -16,4 +16,4 @@ php artisan sandbox:migrate --force
 php artisan fleetbase:seed
 
 # Flush database
-php artisan migrate:refresh
+php artisan migrate:refresh --force
