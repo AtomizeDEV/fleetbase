@@ -3,8 +3,6 @@
 .env.backup
 .phpunit.result.cache
 .pnpm-store
-.npmrc
-*/.npmrc
 docker-compose.override.yml
 npm-debug.log
 yarn-error.log
@@ -19,13 +17,19 @@ api/composer-install-dev.sh
 api/auth.json
 act.sh
 composer-auth.json
-packages/billing-api
-packages/billing-engine
-packages/flespi-engine
-packages/flespi-integration
-packages/projectargus-engine
 docker/database/*
 docker/database/mysql/*
-verdaccio/storage/*
+.talismanrc
+verdaccio/minio
 verdaccio/config/htpasswd
-verdaccio/plugins/*/node_modules
+verdaccio/storage
+# private packages
+packages/billing
+packages/flespi
+packages/loconav
+packages/internals
+packages/projectargus-engine
+# wip
+packages/solid
+solid
+verdaccio
