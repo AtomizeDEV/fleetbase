@@ -1,0 +1,215 @@
+app:
+  name: Fastlane
+terms:
+  new: Nowy
+  sort: Sortuj
+  filter: Filtr
+  columns: Kolumny
+  settings: Ustawienia
+  home: Strona główna
+  admin: Admin
+  logout: Wyloguj
+  dashboard: Panel
+  search: Szukaj
+  search-input: Wyszukiwanie
+common: 
+  2fa-config: Konfiguracja 2FA
+  account: Konto
+  admin: Admin
+  branding: Branding
+  columns: Kolumny
+  dashboard: Panel
+  date-of-birth: Data urodzenia
+  delete: Usuń
+  email: Email
+  filesystem: System plików
+  filter: Filtr
+  home: Strona główna
+  logout: Wyloguj
+  mail: Mail
+  name: Nazwa
+  new: Nowy
+  notification-channels: Kanały powiadomień
+  notifications: Powiadomienia
+  organization: Organizacja
+  overview: Przegląd
+  phone: Twój numer telefonu
+  profile: Profil
+  queue: Kolejka
+  save-button-text: Zapisz zmiany
+  search-input: Wyszukiwanie
+  search: Szukaj
+  services: Usługi
+  settings: Ustawienia
+  socket: Gniazdo
+  sort: Sortuj
+  two-factor: Dwuskładnikowe
+  uploading: Wgrywanie...
+  your-profile: Twój profil
+component: 
+  two-fa-enforcement-alert:
+    message: Aby zwiększyć bezpieczeństwo Twojego konta, Twoja organizacja wymaga uwierzytelniania dwuskładnikowego (2FA). Włącz 2FA w ustawieniach konta, aby uzyskać dodatkową warstwę ochrony.
+    button-text: Skonfiguruj 2FA
+auth:
+  two-fa:
+    verify-code:
+      invalid-session-error-notification: Nieprawidłowa sesja. Spróbuj ponownie.
+      verification-successful-notification: Weryfikacja pomyślna!
+      verification-code-expired-notification: Kod weryfikacyjny wygasł. Proszę poprosić o nowy.
+      verification-code-failed-notification: Weryfikacja nie powiodła się. Spróbuj ponownie.
+    resend-code: 
+      verification-code-resent-notification: Nowy kod weryfikacyjny wysłany.
+      verification-code-resent-error-notification: Błąd podczas ponownego wysyłania kodu weryfikacyjnego. Spróbuj ponownie.
+  forgot-password:
+    success-message: Sprawdź swój email, aby kontynuować!
+    is-sent:  
+      title: Prawie gotowe!
+      message: <strong>Sprawdź swój email!</strong><br> Wysłaliśmy do Ciebie magiczny link na Twój email, który pozwoli Ci zresetować hasło. Link wygasa za 15 minut.
+    not-sent:
+      title: Zapomniałeś hasła?
+      message: <strong>Nie martw się, mamy Cię w plecach.</strong><br> Wpisz email, którego używasz do logowania na {appName}, a wyślemy Ci bezpieczny link do zresetowania hasła.
+    form:
+      email-label: Twój adres email
+      submit-button: OK, wyślij mi magiczny link!
+      nevermind-button: Nieważne
+  login:
+    title: Zaloguj się na swoje konto
+    no-identity-notification: Zapomniałeś wpisać swój email?
+    no-password-notification: Zapomniałeś wpisać swoje hasło?
+    unverified-notification: Twoje konto musi zostać zweryfikowane, aby kontynuować.
+    failed-attempt:
+      message: <strong>Zapomniałeś hasła?</strong><br> Kliknij przycisk poniżej, aby zresetować swoje hasło.
+      button-text: Ok, pomóż mi zresetować!
+    form:
+      email-label: Adres email
+      password-label: Hasło
+      remember-me-label: Zapamiętaj mnie
+      forgot-password-label: Zapomniałeś hasła?
+      sign-in-button: Zaloguj się
+      create-account-button: Stwórz nowe konto
+    slow-connection-message: Problemy z połączeniem.
+  reset-password:
+    success-message: Twoje hasło zostało zresetowane! Zaloguj się, aby kontynuować.
+    title: Zresetuj swoje hasło
+    form:
+      code:
+        label: Twój kod resetujący
+        help-text: Kod weryfikacyjny, który otrzymałeś w swoim emailu.
+      password:
+        label: Nowe hasło
+        help-text: Wpisz hasło co najmniej 6 znaków, aby kontynuować.
+      confirm-password:
+        label: Potwierdź nowe hasło
+        help-text: Wpisz hasło co najmniej 6 znaków, aby kontynuować.
+      submit-button: Zresetuj hasło
+      back-button: Wstecz
+console:
+  account:
+    index: 
+      upload-new: Wgraj nowe
+      phone: Twój numer telefonu.
+      photos: zdjęcia
+  admin:
+    config:
+      database:
+        title: Konfiguracja bazy danych
+      filesystem:
+        title: Konfiguracja systemu plików
+      mail:
+        title: Konfiguracja poczty
+      notification-channels: 
+        title: Konfiguracja kanałów powiadomień
+      queue:
+        title: Konfiguracja kolejki
+      services:
+        title: Konfiguracja usług
+      socket:
+        title: Konfiguracja gniazda
+    branding:
+      title: Branding
+      icon-text: Ikona
+      upload-new: Wgraj nowe
+      reset-default: Zresetuj do domyślnych
+      logo-text: Logo
+      theme: Domyślny motyw
+    index:
+      total-users: Całkowita liczba użytkowników
+      total-organizations: Całkowita liczba organizacji
+      total-transactions: Całkowita liczba transakcji
+    notifications:
+      title: Powiadomienia
+      notification-settings: Ustawienia powiadomień
+  settings:
+    index:
+      title: Ustawienia organizacji
+      organization-name: Nazwa organizacji
+      organization-description: Opis organizacji
+      organization-phone: Numer telefonu organizacji
+      organization-currency: Waluta organizacji
+      organization-id: ID organizacji
+      organization-branding: Branding organizacji
+      logo: Logo
+      logo-help-text: Logo Twojej organizacji.
+      upload-new-logo: Wgraj nowe logo
+      backdrop: Tło
+      backdrop-help-text: Opcjonalny baner lub obraz tła dla Twojej organizacji.
+      upload-new-backdrop: Wgraj nowe tło
+  extensions:
+    title: Rozszerzenia wkrótce!
+    message: Prosimy o powrót w nadchodzących wersjach, gdy przygotowujemy się do uruchomienia repozytorium rozszerzeń i rynku.
+  notifications:
+    select-all: Wybierz wszystko
+    mark-as-read: Oznacz jako przeczytane
+    received: >-
+        Otrzymane:
+    message: Brak powiadomień do wyświetlenia.
+invite:
+  for-users:
+    invitation-message: Zostałeś zaproszony do dołączenia do {companyName}
+    invitation-sent-message: Zostałeś zaproszony do dołączenia do organizacji {companyName} na {appName}. Aby zaakceptować to zaproszenie, wprowadź swój kod zaproszenia otrzymany przez email i kliknij kontynuuj.
+    invitation-code-sent-text: Twój kod zaproszenia
+    accept-invitation-text: Zaakceptuj zaproszenie
+onboard:
+  index:
+    title: Utwórz swoje konto
+    welcome-title: <strong>Witamy w {companyName}!</strong><br />
+    welcome-text: Uzupełnij poniższe wymagane dane, aby zacząć.
+    full-name: Pełne imię i nazwisko
+    full-name-help-text: Twoje pełne imię i nazwisko
+    your-email: Adres email
+    your-email-help-text: Twój adres email
+    phone: Numer telefonu
+    phone-help-text: Twój numer telefonu
+    organization-name: Nazwa organizacji
+    organization-help-text: Nazwa Twojej organizacji, wszystkie Twoje usługi i zasoby będą zarządzane pod tą organizacją, później możesz stworzyć tyle organizacji, ile chcesz lub potrzebujesz.
+    password: Wprowadź hasło
+    password-help-text: Twoje hasło, upewnij się, że jest dobre.
+    confirm-password: Potwierdź swoje hasło
+    confirm-password-help-text: Tylko aby potwierdzić hasło, które wpisałeś powyżej.
+    continue-button-text: Kontynuuj
+  verify-email:
+    title: Zweryfikuj swój adres email
+    message-text: <strong>Prawie gotowe!</strong><br> Sprawdź swój email pod kątem kodu weryfikacyjnego.
+    verification-code-text: Wprowadź kod weryfikacyjny, który otrzymałeś przez email.
+    verify-button-text: Zweryfikuj i kontynuuj
+    not-sent:
+      message: Jeszcze nie otrzymałeś emaila?
+      alternative-choice: Użyj poniższych alternatywnych opcji, aby zweryfikować swoje konto.
+      resent-button-text: Wyślij email ponownie
+      sms-button-text: Wyślij SMS
+install:
+  installer-header: Instalator
+  failed-message-sent: Instalacja nie powiodła się! Kliknij przycisk poniżej, aby ponownie spróbować zainstalować.
+  retry-install: Zainstaluj ponownie
+  start-install: Rozpocznij instalację
+layout:
+  header:
+    menus:
+      organization:
+        settings: Ustawienia organizacji
+        create-or-join: Utwórz lub dołącz do organizacji
+        explore-extensions: Eksploruj rozszerzenia
+      user:
+        view-profile: Zobacz profil
+        keyboard-shortcuts: Pokaż skróty klawiszowe
+        changelog: Dziennik zmian

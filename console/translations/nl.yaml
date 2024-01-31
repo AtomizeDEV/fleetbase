@@ -1,0 +1,215 @@
+app:
+  name: Fastlane
+terms:
+  new: Nieuw
+  sort: Sorteren
+  filter: Filter
+  columns: Kolommen
+  settings: Instellingen
+  home: Thuis
+  admin: Admin
+  logout: Uitloggen
+  dashboard: Dashboard
+  search: Zoeken
+  search-input: Zoek invoer
+common: 
+  2fa-config: 2FA Configuratie
+  account: Account
+  admin: Admin
+  branding: Branding
+  columns: Kolommen
+  dashboard: Dashboard
+  date-of-birth: Geboortedatum
+  delete: Verwijderen
+  email: E-mail
+  filesystem: Bestandssysteem
+  filter: Filter
+  home: Thuis
+  logout: Uitloggen
+  mail: Mail
+  name: Naam
+  new: Nieuw
+  notification-channels: Notificatiekanalen
+  notifications: Notificaties
+  organization: Organisatie
+  overview: Overzicht
+  phone: Uw telefoonnummer
+  profile: Profiel
+  queue: Wachtrij
+  save-button-text: Wijzigingen opslaan
+  search-input: Zoek invoer
+  search: Zoeken
+  services: Diensten
+  settings: Instellingen
+  socket: Socket
+  sort: Sorteren
+  two-factor: Twee Factoren
+  uploading: Uploaden...
+  your-profile: Jouw Profiel
+component: 
+  two-fa-enforcement-alert:
+    message: Om de veiligheid van uw account te vergroten, vereist uw organisatie Two-Factor Authentication (2FA). Schakel 2FA in uw accountinstellingen in voor een extra beveiligingslaag.
+    button-text: Stel 2FA in
+auth:
+  two-fa:
+    verify-code:
+      invalid-session-error-notification: Ongeldige sessie. Probeer het opnieuw.
+      verification-successful-notification: Verificatie geslaagd!
+      verification-code-expired-notification: Verificatiecode is verlopen. Vraag een nieuwe aan.
+      verification-code-failed-notification: Verificatie mislukt. Probeer het opnieuw.
+    resend-code: 
+      verification-code-resent-notification: Nieuwe verificatiecode verzonden.
+      verification-code-resent-error-notification: Fout bij het opnieuw verzenden van de verificatiecode. Probeer het opnieuw.
+  forgot-password:
+    success-message: Controleer uw e-mail om door te gaan!
+    is-sent:  
+      title: Bijna klaar!
+      message: <strong>Controleer uw e-mail!</strong><br> We hebben u een magische link naar uw e-mail gestuurd waarmee u uw wachtwoord kunt resetten. De link verloopt over 15 minuten.
+    not-sent:
+      title: Wachtwoord vergeten?
+      message: <strong>Maak je geen zorgen, we helpen je.</strong><br> Voer de e-mail in die je gebruikt om in te loggen op {appName} en we sturen je een veilige link om je wachtwoord te resetten.
+    form:
+      email-label: Jouw e-mailadres
+      submit-button: OK, stuur me een magische link!
+      nevermind-button: Laat maar
+  login:
+    title: Log in op uw account
+    no-identity-notification: Bent u uw e-mail vergeten in te voeren?
+    no-password-notification: Bent u uw wachtwoord vergeten in te voeren?
+    unverified-notification: Uw account moet geverifieerd worden om door te gaan.
+    failed-attempt:
+      message: <strong>Wachtwoord vergeten?</strong><br> Klik op de knop hieronder om uw wachtwoord te resetten.
+      button-text: Ok, help me resetten!
+    form:
+      email-label: E-mailadres
+      password-label: Wachtwoord
+      remember-me-label: Onthoud mij
+      forgot-password-label: Wachtwoord vergeten?
+      sign-in-button: Inloggen
+      create-account-button: Maak een nieuw account aan
+    slow-connection-message: Verbindingsproblemen ervaren.
+  reset-password:
+    success-message: Uw wachtwoord is gereset! Log in om door te gaan.
+    title: Reset uw wachtwoord
+    form:
+      code:
+        label: Uw resetcode
+        help-text: De verificatiecode die u in uw e-mail heeft ontvangen.
+      password:
+ label: Nieuw wachtwoord
+        help-text: Voer een wachtwoord in van ten minste 6 tekens om door te gaan.
+      confirm-password:
+        label: Bevestig nieuw wachtwoord
+        help-text: Voer een wachtwoord in van ten minste 6 tekens om door te gaan.
+      submit-button: Reset wachtwoord
+      back-button: Terug
+console:
+  account:
+    index: 
+      upload-new: Upload nieuw
+      phone: Uw telefoonnummer.
+      photos: foto's
+  admin:
+    config:
+      database:
+        title: Databaseconfiguratie
+      filesystem:
+        title: Bestandssysteemconfiguratie
+      mail:
+        title: Mailconfiguratie
+      notification-channels: 
+        title: Configuratie van notificatiekanalen
+      queue:
+        title: Wachtrijconfiguratie
+      services:
+        title: Dienstenconfiguratie
+      socket:
+        title: Socketconfiguratie
+    branding:
+      title: Branding
+      icon-text: Icoon
+      upload-new: Upload nieuw
+      reset-default: Terugzetten naar standaard
+      logo-text: Logo
+      theme: Standaardthema
+    index:
+      total-users: Totaal Gebruikers
+      total-organizations: Totaal Organisaties
+      total-transactions: Totaal Transacties
+    notifications:
+      title: Notificaties
+      notification-settings: Notificatie-instellingen
+  settings:
+    index:
+      title: Organisatie-instellingen
+      organization-name: Organisatienaam
+      organization-description: Organisatiebeschrijving
+      organization-phone: Telefoonnummer organisatie
+      organization-currency: Organisatievaluta
+      organization-id: Organisatie-ID
+      organization-branding: Organisatiebranding
+      logo: Logo
+      logo-help-text: Logo voor uw organisatie.
+      upload-new-logo: Upload nieuw logo
+      backdrop: Achtergrond
+      backdrop-help-text: Optionele banner of achtergrondafbeelding voor uw organisatie.
+      upload-new-backdrop: Upload nieuwe achtergrond
+  extensions:
+    title: Extensies komen binnenkort!
+    message: Kom terug in de komende versies terwijl we ons voorbereiden om de extensierepository en marktplaats te lanceren.
+  notifications:
+    select-all: Selecteer alles
+    mark-as-read: Markeer als gelezen
+    received: >-
+        Ontvangen:
+    message: Geen meldingen om weer te geven.
+invite:
+  for-users:
+    invitation-message: Je bent uitgenodigd om je aan te sluiten bij {companyName}
+    invitation-sent-message: Je bent uitgenodigd om je aan te sluiten bij de {companyName} organisatie op {appName}. Om deze uitnodiging te accepteren, voer je uitnodigingscode in die je per e-mail hebt ontvangen en klik op doorgaan.
+    invitation-code-sent-text: Je uitnodigingscode
+    accept-invitation-text: Accepteer uitnodiging
+onboard:
+  index:
+    title: Maak uw account aan
+    welcome-title: <strong>Welkom bij {companyName}!</strong><br />
+    welcome-text: Voltooi de benodigde gegevens hieronder om te beginnen.
+    full-name: Volledige naam
+    full-name-help-text: Uw volledige naam
+    your-email: E-mailadres
+    your-email-help-text: Uw e-mailadres
+    phone: Telefoonnummer
+    phone-help-text: Uw telefoonnummer
+    organization-name: Organisatienaam
+    organization-help-text: De naam van uw organisatie, al uw diensten en bronnen worden onder deze organisatie beheerd, later kunt u zoveel organisaties maken als u wilt of nodig hebt.
+    password: Voer een wachtwoord in
+    password-help-text: Uw wachtwoord, zorg ervoor dat het een goede is.
+    confirm-password: Bevestig uw wachtwoord
+    confirm-password-help-text: Gewoon om het wachtwoord dat u hierboven heeft ingevoerd te bevestigen.
+    continue-button-text: Doorgaan
+  verify-email:
+    title: Verifieer uw e-mailadres
+    message-text: <strong>Bijna klaar!</strong><br> Controleer uw e-mail op een verificatiecode.
+    verification-code-text: Voer de verificatiecode in die u via e-mail heeft ontvangen.
+    verify-button-text: Verifiëren & Doorgaan
+    not-sent:
+      message: Nog geen e-mail ontvangen?
+      alternative-choice: Gebruik onderstaande alternatieve opties om uw account te verifiëren.
+      resent-button-text: E-mail opnieuw verzenden
+      sms-button-text: Verzenden per SMS
+install:
+  installer-header: Installateur
+  failed-message-sent: De installatie is mislukt! Klik op de knop hieronder om de installatie opnieuw te proberen.
+  retry-install: Installeer opnieuw
+  start-install: Begin installatie
+layout:
+  header:
+    menus:
+      organization:
+        settings: Organisatie-instellingen
+        create-or-join: Maak of sluit je aan bij organisaties
+        explore-extensions: Verken extensies
+      user:
+        view-profile: Bekijk profiel
+        keyboard-shortcuts: Toon sneltoetsen
+        changelog: Wijzigingslog
