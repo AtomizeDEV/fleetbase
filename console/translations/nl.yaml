@@ -96,7 +96,7 @@ auth:
         label: Uw resetcode
         help-text: De verificatiecode die u in uw e-mail heeft ontvangen.
       password:
- label: Nieuw wachtwoord
+        label: Nieuw wachtwoord
         help-text: Voer een wachtwoord in van ten minste 6 tekens om door te gaan.
       confirm-password:
         label: Bevestig nieuw wachtwoord
