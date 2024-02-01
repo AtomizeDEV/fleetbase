@@ -13,6 +13,9 @@ terms:
   search: Zoeken
   search-input: Zoek invoer
 common: 
+  edit: Bewerken
+  save: Opslaan
+  cancel: Annuleren
   2fa-config: 2FA Configuratie
   account: Account
   admin: Admin
@@ -46,11 +49,52 @@ common:
   two-factor: Twee Factoren
   uploading: Uploaden...
   your-profile: Jouw Profiel
-component: 
+component:
+  file:
+    dropdown-label: Bestandsacties
+  dropzone:
+    file: bestand
+    drop-to-upload: Sleep hierheen om te uploaden
+    invalid: Ongeldig
+    files-ready-for-upload: >-
+      {numOfFiles} klaar om te uploaden.
+    upload-images-videos: Upload Afbeeldingen & Video's
+    upload-documents: Documenten uploaden
+    upload-documents-files: Documenten & Bestanden uploaden
+    dropzone-supported-images-videos: Sleep afbeeldingen en videobestanden naar dit veld om te uploaden
+    dropzone-supported-files: Sleep bestanden naar dit veld om te uploaden
+    or-select-button-text: of selecteer bestanden om te uploaden.
+    upload-queue: Uploadwachtrij
+    uploading: Uploaden... 
   two-fa-enforcement-alert:
     message: Om de veiligheid van uw account te vergroten, vereist uw organisatie Two-Factor Authentication (2FA). Schakel 2FA in uw accountinstellingen in voor een extra beveiligingslaag.
     button-text: Stel 2FA in
+  comment-thread:
+    publish-comment-button-text: Reactie plaatsen
+    publish-reply-button-text: Antwoord plaatsen
+    reply-comment-button-text: Beantwoorden
+    edit-comment-button-text: Bewerken
+    delete-comment-button-text: Verwijderen
+    comment-published-ago: >-
+              {createdAgo} geleden
+    comment-input-placeholder: Voer een nieuwe reactie in...
+    comment-reply-placeholder: Voer uw antwoord in...
+    comment-input-empty-notification: Je kunt geen lege reacties plaatsen...
+    comment-min-length-notification: Reactie moet minimaal 2 tekens lang zijn
 auth:
+  verification:
+    header-title: Accountverificatie
+    title: Verifieer je e-mailadres
+    message-text: <strong>Bijna klaar!</strong><br> Controleer je e-mail voor een verificatiecode.
+    verification-code-text: Voer de verificatiecode in die je via e-mail hebt ontvangen.
+    verification-input-label: Verificatiecode
+    verify-button-text: Verifieer & Ga verder
+    didnt-receive-a-code: Nog geen code ontvangen?
+    not-sent:
+      message: Nog geen code ontvangen?
+      alternative-choice: Gebruik onderstaande alternatieve opties om je account te verifiëren.
+      resend-email: E-mail opnieuw verzenden
+      send-by-sms: Verstuur via SMS
   two-fa:
     verify-code:
       invalid-session-error-notification: Ongeldige sessie. Probeer het opnieuw.
@@ -188,15 +232,18 @@ onboard:
     confirm-password-help-text: Gewoon om het wachtwoord dat u hierboven heeft ingevoerd te bevestigen.
     continue-button-text: Doorgaan
   verify-email:
+    header-title: Accountverificatie
     title: Verifieer uw e-mailadres
     message-text: <strong>Bijna klaar!</strong><br> Controleer uw e-mail op een verificatiecode.
     verification-code-text: Voer de verificatiecode in die u via e-mail heeft ontvangen.
+    verification-input-label: Verificatiecode
     verify-button-text: Verifiëren & Doorgaan
+    didnt-receive-a-code: Nog geen code ontvangen?
     not-sent:
-      message: Nog geen e-mail ontvangen?
+      message: Nog geen code ontvangen?
       alternative-choice: Gebruik onderstaande alternatieve opties om uw account te verifiëren.
-      resent-button-text: E-mail opnieuw verzenden
-      sms-button-text: Verzenden per SMS
+      resend-email: E-mail opnieuw verzenden
+      send-by-sms: Verzenden per SMS
 install:
   installer-header: Installateur
   failed-message-sent: De installatie is mislukt! Klik op de knop hieronder om de installatie opnieuw te proberen.

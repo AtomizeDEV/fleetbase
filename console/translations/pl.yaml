@@ -13,6 +13,9 @@ terms:
   search: Szukaj
   search-input: Wyszukiwanie
 common: 
+  edit: Edytuj
+  save: Zapisz
+  cancel: Anuluj
   2fa-config: Konfiguracja 2FA
   account: Konto
   admin: Admin
@@ -46,11 +49,52 @@ common:
   two-factor: Dwuskładnikowe
   uploading: Wgrywanie...
   your-profile: Twój profil
-component: 
+component:
+  file:
+    dropdown-label: Akcje pliku
+  dropzone:
+    file: plik
+    drop-to-upload: Upuść, aby przesłać
+    invalid: Nieprawidłowy
+    files-ready-for-upload: >-
+      {numOfFiles} gotowych do przesłania.
+    upload-images-videos: Prześlij Obrazy & Filmy
+    upload-documents: Prześlij Dokumenty
+    upload-documents-files: Prześlij Dokumenty & Pliki
+    dropzone-supported-images-videos: Przeciągnij i upuść pliki obrazów i wideo na tę strefę
+    dropzone-supported-files: Przeciągnij i upuść pliki na tę strefę
+    or-select-button-text: lub wybierz pliki do przesłania.
+    upload-queue: Kolejka przesyłania
+    uploading: Przesyłanie...
   two-fa-enforcement-alert:
     message: Aby zwiększyć bezpieczeństwo Twojego konta, Twoja organizacja wymaga uwierzytelniania dwuskładnikowego (2FA). Włącz 2FA w ustawieniach konta, aby uzyskać dodatkową warstwę ochrony.
     button-text: Skonfiguruj 2FA
+  comment-thread:
+    publish-comment-button-text: Opublikuj komentarz
+    publish-reply-button-text: Opublikuj odpowiedź
+    reply-comment-button-text: Odpowiedz
+    edit-comment-button-text: Edytuj
+    delete-comment-button-text: Usuń
+    comment-published-ago: >-
+            {createdAgo} temu
+    comment-input-placeholder: Wpisz nowy komentarz...
+    comment-reply-placeholder: Wpisz swoją odpowiedź...
+    comment-input-empty-notification: Nie możesz publikować pustych komentarzy...
+    comment-min-length-notification: Komentarz musi mieć przynajmniej 2 znaki
 auth:
+  verification:
+    header-title: Weryfikacja Konta
+    title: Zweryfikuj swój adres email
+    message-text: <strong>Prawie gotowe!</strong><br> Sprawdź swoją pocztę e-mail w celu uzyskania kodu weryfikacyjnego.
+    verification-code-text: Wprowadź kod weryfikacyjny, który otrzymałeś przez e-mail.
+    verification-input-label: Kod Weryfikacyjny
+    verify-button-text: Zweryfikuj i kontynuuj
+    didnt-receive-a-code: Nie otrzymałeś jeszcze kodu?
+    not-sent:
+      message: Nie otrzymałeś jeszcze kodu?
+      alternative-choice: Użyj alternatywnych opcji poniżej, aby zweryfikować swoje konto.
+      resend-email: Wyślij ponownie e-mail
+      send-by-sms: Wyślij przez SMS
   two-fa:
     verify-code:
       invalid-session-error-notification: Nieprawidłowa sesja. Spróbuj ponownie.
@@ -188,15 +232,18 @@ onboard:
     confirm-password-help-text: Tylko aby potwierdzić hasło, które wpisałeś powyżej.
     continue-button-text: Kontynuuj
   verify-email:
+    header-title: Weryfikacja Konta
     title: Zweryfikuj swój adres email
     message-text: <strong>Prawie gotowe!</strong><br> Sprawdź swój email pod kątem kodu weryfikacyjnego.
     verification-code-text: Wprowadź kod weryfikacyjny, który otrzymałeś przez email.
+    verification-input-label: Kod Weryfikacyjny
     verify-button-text: Zweryfikuj i kontynuuj
+    didnt-receive-a-code: Nie otrzymałeś jeszcze kodu?
     not-sent:
       message: Jeszcze nie otrzymałeś emaila?
       alternative-choice: Użyj poniższych alternatywnych opcji, aby zweryfikować swoje konto.
-      resent-button-text: Wyślij email ponownie
-      sms-button-text: Wyślij SMS
+      resend-email: Wyślij email ponownie
+      send-by-sms: Wyślij SMS
 install:
   installer-header: Instalator
   failed-message-sent: Instalacja nie powiodła się! Kliknij przycisk poniżej, aby ponownie spróbować zainstalować.
