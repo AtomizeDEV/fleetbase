@@ -35,6 +35,7 @@ common:
   notification-channels: Kanały powiadomień
   notifications: Powiadomienia
   organization: Organizacja
+  organizations: Organizacja
   overview: Przegląd
   phone: Twój numer telefonu
   profile: Profil
@@ -49,6 +50,12 @@ common:
   two-factor: Dwuskładnikowe
   uploading: Wgrywanie...
   your-profile: Twój profil
+  created-at: Utworzono o
+  country: Kraj
+  phone-number: Telefon
+  status: Status
+  close-and-save: Zamknij i Zapisz
+  users: Użytkownicy
 component:
   file:
     dropdown-label: Akcje pliku
@@ -81,6 +88,27 @@ component:
     comment-reply-placeholder: Wpisz swoją odpowiedź...
     comment-input-empty-notification: Nie możesz publikować pustych komentarzy...
     comment-min-length-notification: Komentarz musi mieć przynajmniej 2 znaki
+  dashboard:
+    select-dashboard: Wybierz Dashboard
+    create-new-dashboard: Utwórz nowy Dashboard
+    create-a-new-dashboard: Utwórz nowy Dashboard
+    confirm-create-dashboard: Utwórz Dashboard!
+    edit-layout: Edytuj układ
+    add-widgets: Dodaj widżety
+    delete-dashboard: Usuń Dashboard
+    save-dashboard: Zapisz Dashboard
+    you-cannot-delete-this-dashboard: Nie możesz usunąć tego dashboardu.
+    are-you-sure-you-want-delete-dashboard: Czy na pewno chcesz usunąć {dashboardName}?
+  dashboard-widget-panel:
+    widget-name: >-
+      Widżet {widgetName}
+    select-widgets: Wybierz Widżety
+    close-and-save: Zamknij i Zapisz
+services:
+  dashboard-service:
+    create-dashboard-success-notification: Nowy dashboard `{dashboardName}` został pomyślnie utworzony.
+    delete-dashboard-success-notification: Dashboard `{dashboardName}` został usunięty.
+
 auth:
   verification:
     header-title: Weryfikacja Konta
@@ -183,6 +211,13 @@ console:
     notifications:
       title: Powiadomienia
       notification-settings: Ustawienia powiadomień
+  organizations:
+    index:
+      title: Organizacje
+      phone-column: Telefon
+      email-column: Email
+    users:
+      title: Użytkownicy
   settings:
     index:
       title: Ustawienia organizacji

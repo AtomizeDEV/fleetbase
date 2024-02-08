@@ -35,6 +35,7 @@ common:
   notification-channels: Notificatiekanalen
   notifications: Notificaties
   organization: Organisatie
+  organization: Organisaties 
   overview: Overzicht
   phone: Uw telefoonnummer
   profile: Profiel
@@ -49,6 +50,12 @@ common:
   two-factor: Twee Factoren
   uploading: Uploaden...
   your-profile: Jouw Profiel
+  created-at: Gemaakt op
+  country: Land
+  phone-number: Telefoon
+  status: Status
+  close-and-save: Sluiten en Opslaan
+  users: Gebruikers
 component:
   file:
     dropdown-label: Bestandsacties
@@ -81,6 +88,26 @@ component:
     comment-reply-placeholder: Voer uw antwoord in...
     comment-input-empty-notification: Je kunt geen lege reacties plaatsen...
     comment-min-length-notification: Reactie moet minimaal 2 tekens lang zijn
+  dashboard:
+    select-dashboard: Selecteer Dashboard
+    create-new-dashboard: Maak nieuw Dashboard
+    create-a-new-dashboard: Maak een nieuw Dashboard
+    confirm-create-dashboard: Maak Dashboard!
+    edit-layout: Bewerk lay-out
+    add-widgets: Voeg widgets toe
+    delete-dashboard: Verwijder dashboard
+    save-dashboard: Bewaar Dashboard
+    you-cannot-delete-this-dashboard: Je kunt dit dashboard niet verwijderen.
+    are-you-sure-you-want-delete-dashboard: Weet je zeker dat je {dashboardName} wilt verwijderen?
+  dashboard-widget-panel:
+    widget-name: >-
+      {widgetName} Widget
+    select-widgets: Selecteer Widgets
+    close-and-save: Sluiten en Opslaan
+services:
+  dashboard-service:
+    create-dashboard-success-notification: Nieuw dashboard `{dashboardName}` succesvol aangemaakt.
+    delete-dashboard-success-notification: Dashboard `{dashboardName}` is verwijderd.
 auth:
   verification:
     header-title: Accountverificatie
@@ -183,6 +210,13 @@ console:
     notifications:
       title: Notificaties
       notification-settings: Notificatie-instellingen
+  organizations:
+    index:
+      title: Organisaties
+      phone-column: Telefoon
+      email-column: E-mail
+    users:
+      title: Gebruikers
   settings:
     index:
       title: Organisatie-instellingen
