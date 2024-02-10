@@ -26,8 +26,8 @@ dependencies:
     specifier: git@github.com/AtomizeDEV/fleetops-data.git
     version: github.com/AtomizeDEV/fleetops-data/e637a11a1a0c9fc1aace4f8800cf758b7da81cbf
   '@atomizedev/fleetops-engine':
-    specifier: git@github.com/AtomizeDEV/fleetops.git
-    version: github.com/AtomizeDEV/fleetops/e5f474331b1f0ea2e89a7b8a5fb6bbcf916d8f2f(@ember/test-helpers@3.2.1)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.1)(postcss@8.4.35)(tracked-built-ins@3.3.0)(webpack@5.90.1)
+    specifier: git@github.com/AtomizeDEV/fleetops.git#4b40a2f9689c34327e26955348f26c42ffa22090
+    version: github.com/AtomizeDEV/fleetops/4b40a2f9689c34327e26955348f26c42ffa22090(@ember/test-helpers@3.2.1)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.1)(postcss@8.4.35)(tracked-built-ins@3.3.0)(webpack@5.90.1)
   '@atomizedev/iam-engine':
     specifier: git@github.com/AtomizeDEV/iam-engine.git
     version: github.com/AtomizeDEV/iam-engine/96364ef79f1c24b9b88e15c0dbd86c9b1c076e96(@ember/test-helpers@3.2.1)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.1)(postcss@8.4.35)(tracked-built-ins@3.3.0)(webpack@5.90.1)
@@ -16565,9 +16565,9 @@ packages:
       - supports-color
     dev: false
 
-  github.com/AtomizeDEV/fleetops/e5f474331b1f0ea2e89a7b8a5fb6bbcf916d8f2f(@ember/test-helpers@3.2.1)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.1)(postcss@8.4.35)(tracked-built-ins@3.3.0)(webpack@5.90.1):
-    resolution: {tarball: https://codeload.github.com/AtomizeDEV/fleetops/tar.gz/e5f474331b1f0ea2e89a7b8a5fb6bbcf916d8f2f}
-    id: github.com/AtomizeDEV/fleetops/e5f474331b1f0ea2e89a7b8a5fb6bbcf916d8f2f
+  github.com/AtomizeDEV/fleetops/4b40a2f9689c34327e26955348f26c42ffa22090(@ember/test-helpers@3.2.1)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.1)(postcss@8.4.35)(tracked-built-ins@3.3.0)(webpack@5.90.1):
+    resolution: {tarball: https://codeload.github.com/AtomizeDEV/fleetops/tar.gz/4b40a2f9689c34327e26955348f26c42ffa22090}
+    id: github.com/AtomizeDEV/fleetops/4b40a2f9689c34327e26955348f26c42ffa22090
     name: '@atomizedev/fleetops-engine'
     version: 0.4.7
     engines: {node: '>= 18'}

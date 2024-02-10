@@ -32,7 +32,7 @@
         "@atomizedev/ember-ui": "git@github.com/AtomizeDEV/ember-ui.git", 
         "@atomizedev/dev-engine": "git@github.com/AtomizeDEV/dev-engine.git", 
         "@atomizedev/iam-engine": "git@github.com/AtomizeDEV/iam-engine.git",
-        "@atomizedev/fleetops-engine": "git@github.com/AtomizeDEV/fleetops.git", 
+        "@atomizedev/fleetops-engine": "git@github.com/AtomizeDEV/fleetops.git#4b40a2f9689c34327e26955348f26c42ffa22090", 
         "@atomizedev/fleetops-data": "git@github.com/AtomizeDEV/fleetops-data.git", 
         "@atomizedev/storefront-engine": "git@github.com/AtomizeDEV/storefront.git", 
         "@atomizedev/billing-engine": "git@github.com/AtomizeDEV/billing.git", 
