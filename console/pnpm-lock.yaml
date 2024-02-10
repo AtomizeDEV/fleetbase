@@ -12,7 +12,7 @@ overrides:
 dependencies:
   '@atomizedev/billing-engine':
     specifier: git@github.com/AtomizeDEV/billing.git
-    version: github.com/AtomizeDEV/billing/5d85fe4a145ace3082a4c239a1e465d86cbd7eca(@ember/test-helpers@3.2.1)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.1)(postcss@8.4.35)(tracked-built-ins@3.3.0)(webpack@5.90.1)
+    version: github.com/AtomizeDEV/billing/08c53dd688d79b9d6f796cb76748759a0a5ef990(@ember/test-helpers@3.2.1)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.1)(postcss@8.4.35)(tracked-built-ins@3.3.0)(webpack@5.90.1)
   '@atomizedev/dev-engine':
     specifier: git@github.com/AtomizeDEV/dev-engine.git
     version: github.com/AtomizeDEV/dev-engine/85f1ef9d4140b9a66f5e8dcdc57d9a0b25e6ac34(@ember/test-helpers@3.2.1)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.1)(postcss@8.4.35)(tracked-built-ins@3.3.0)(webpack@5.90.1)
@@ -16339,9 +16339,9 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  github.com/AtomizeDEV//billing/5d85fe4a145ace3082a4c239a1e465d86cbd7eca(@ember/test-helpers@3.2.1)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.1)(postcss@8.4.35)(tracked-built-ins@3.3.0)(webpack@5.90.1):
-    resolution: {tarball: https://codeload.github.com/AtomizeDEV/billing/tar.gz/5d85fe4a145ace3082a4c239a1e465d86cbd7eca}
-    id: github.com/AtomizeDEV//billing/5d85fe4a145ace3082a4c239a1e465d86cbd7eca
+  github.com/AtomizeDEV/billing/08c53dd688d79b9d6f796cb76748759a0a5ef990(@ember/test-helpers@3.2.1)(@glimmer/component@1.1.2)(@glimmer/tracking@1.1.2)(ember-engines@0.8.23)(ember-source@5.4.1)(postcss@8.4.35)(tracked-built-ins@3.3.0)(webpack@5.90.1):
+    resolution: {tarball: https://codeload.github.com/AtomizeDEV/billing/tar.gz/08c53dd688d79b9d6f796cb76748759a0a5ef990}
+    id: github.com/AtomizeDEV/billing/08c53dd688d79b9d6f796cb76748759a0a5ef990
     name: '@atomizedev/billing-engine'
     version: 0.0.6
     engines: {node: '>= 18'}
