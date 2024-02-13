@@ -26,7 +26,7 @@
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^8.0",
         "atomizedev/core-api": "dev-main",
         "atomizedev/fleetops-api": "dev-main",
         "atomizedev/storefront-api": "dev-main",
@@ -39,7 +39,8 @@
         "maatwebsite/excel": "^3.1",
         "phpoffice/phpspreadsheet": "^1.28",
         "predis/predis": "^2.1",
-        "psr/http-factory-implementation": "*"
+        "psr/http-factory-implementation": "*",
+        "s-ichikawa/laravel-sendgrid-driver": "^4.0"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^2.0",
