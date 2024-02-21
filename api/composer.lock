@@ -292,7 +292,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/atomizedev/fleetops",
-                "reference": "05f4f287e8815d916991b045fd377fc66f4edf09"
+                "reference": "e18f09bc6ead0d7fe0bbfae465d229d055ce7b99"
             },
             "require": {
                 "atomizedev/core-api": "dev-main",
@@ -386,7 +386,7 @@
                 "last-mile",
                 "tms"
             ],
-            "time": "2024-02-21T19:38:26+00:00"
+            "time": "2024-02-21T21:59:33+00:00"
         },
         {
             "name": "atomizedev/storefront-api",
