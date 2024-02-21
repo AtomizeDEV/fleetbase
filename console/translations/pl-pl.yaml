@@ -13,6 +13,7 @@ terms:
   search: Szukaj
   search-input: Wyszukiwanie
 common: 
+  confirm: Potwierdź
   edit: Edytuj
   save: Zapisz
   cancel: Anuluj
@@ -56,6 +57,8 @@ common:
   status: Status
   close-and-save: Zamknij i Zapisz
   users: Użytkownicy
+  changelog: Dziennik zmian
+  ok: OK
 component:
   file:
     dropdown-label: Akcje pliku
@@ -68,7 +71,9 @@ component:
     upload-images-videos: Prześlij Obrazy & Filmy
     upload-documents: Prześlij Dokumenty
     upload-documents-files: Prześlij Dokumenty & Pliki
+    upload-avatar-files: Przesyłaj niestandardowe awatary
     dropzone-supported-images-videos: Przeciągnij i upuść pliki obrazów i wideo na tę strefę
+    dropzone-supported-avatars: przeciągnij i upuść pliki SVG lub PNG
     dropzone-supported-files: Przeciągnij i upuść pliki na tę strefę
     or-select-button-text: lub wybierz pliki do przesłania.
     upload-queue: Kolejka przesyłania
@@ -125,6 +130,13 @@ auth:
       send-by-sms: Wyślij przez SMS
   two-fa:
     verify-code:
+      verification-code: Kod weryfikacyjny
+      check-title: Sprawdź swój e-mail lub telefon
+      check-subtitle: Wysłaliśmy do Ciebie kod weryfikacyjny. Wpisz kod poniżej, aby zakończyć proces logowania.
+      expired-help-text: Twój kod uwierzytelniający 2FA wygasł. Możesz poprosić o nowy kod, jeśli potrzebujesz więcej czasu.
+      resend-code: Wyślij kod ponownie
+      verify-code: Zweryfikuj kod
+      cancel-two-factor: Anuluj uwierzytelnianie dwuskładnikowe
       invalid-session-error-notification: Nieprawidłowa sesja. Spróbuj ponownie.
       verification-successful-notification: Weryfikacja pomyślna!
       verification-code-expired-notification: Kod weryfikacyjny wygasł. Proszę poprosić o nowy.
@@ -176,6 +188,15 @@ auth:
       submit-button: Zresetuj hasło
       back-button: Wstecz
 console:
+  create-or-join-organization:
+    modal-title: Utwórz lub dołącz do organizacji
+    join-success-notification: Dołączyłeś do nowej organizacji!
+    create-success-notification: Utworzyłeś nową organizację!
+  switch-organization:
+    modal-title: Czy na pewno chcesz zmienić organizację na {organizationName}?
+    modal-body: Potwierdzając, twoje konto pozostanie zalogowane, ale twoja główna organizacja zostanie zmieniona.
+    modal-accept-button-text: Tak, chcę zmienić organizację
+    success-notification: Zmieniłeś organizacje
   account:
     index: 
       upload-new: Wgraj nowe
@@ -214,6 +235,10 @@ console:
   organizations:
     index:
       title: Organizacje
+      owner-name-column: Właściciel
+      owner-phone-column: Telefon właściciela
+      owner-email-column: E-mail właściciela
+      users-count-column: Użytkownicy
       phone-column: Telefon
       email-column: Email
     users:

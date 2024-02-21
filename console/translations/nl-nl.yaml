@@ -13,6 +13,7 @@ terms:
   search: Zoeken
   search-input: Zoek invoer
 common: 
+  confirm: Bevestigen
   edit: Bewerken
   save: Opslaan
   cancel: Annuleren
@@ -56,6 +57,8 @@ common:
   status: Status
   close-and-save: Sluiten en Opslaan
   users: Gebruikers
+  changelog: changelog
+  ok: Oke
 component:
   file:
     dropdown-label: Bestandsacties
@@ -68,7 +71,9 @@ component:
     upload-images-videos: Upload Afbeeldingen & Video's
     upload-documents: Documenten uploaden
     upload-documents-files: Documenten & Bestanden uploaden
+    upload-avatar-files: Upload aangepaste avatars
     dropzone-supported-images-videos: Sleep afbeeldingen en videobestanden naar dit veld om te uploaden
+    dropzone-ondersteunde avatars: Sleep SVG- of PNG-bestanden en zet ze daar neer
     dropzone-supported-files: Sleep bestanden naar dit veld om te uploaden
     or-select-button-text: of selecteer bestanden om te uploaden.
     upload-queue: Uploadwachtrij
@@ -124,6 +129,13 @@ auth:
       send-by-sms: Verstuur via SMS
   two-fa:
     verify-code:
+      verification-code: Verificatiecode
+      check-title: Controleer uw e-mail of telefoon
+      check-subtitle: We hebben u een verificatiecode gestuurd. Voer de code hieronder in om het inlogproces te voltooien.
+      expired-help-text: Uw 2FA-authenticatiecode is verlopen. U kunt een andere code aanvragen als u meer tijd nodig hebt.
+      resend-code: Code opnieuw versturen
+      verify-code: Code verifiëren
+      cancel-two-factor: Twee-Factor annuleren
       invalid-session-error-notification: Ongeldige sessie. Probeer het opnieuw.
       verification-successful-notification: Verificatie geslaagd!
       verification-code-expired-notification: Verificatiecode is verlopen. Vraag een nieuwe aan.
@@ -175,6 +187,15 @@ auth:
       submit-button: Reset wachtwoord
       back-button: Terug
 console:
+  create-or-join-organization:
+    modal-title: Maak of sluit je aan bij een organisatie
+    join-success-notification: Je hebt je aangesloten bij een nieuwe organisatie!
+    create-success-notification: Je hebt een nieuwe organisatie gecreëerd!
+  switch-organization:
+    modal-title: Weet je zeker dat je van organisatie wilt wisselen naar {organizationName}?
+    modal-body: Door te bevestigen blijft je account ingelogd, maar wordt je primaire organisatie gewisseld.
+    modal-accept-button-text: Ja, ik wil van organisatie wisselen
+    success-notification: Je hebt van organisatie gewisseld
   account:
     index: 
       upload-new: Upload nieuw
@@ -213,6 +234,10 @@ console:
   organizations:
     index:
       title: Organisaties
+      owner-name-column: Eigenaar
+      owner-phone-column: Telefoonnummer eigenaar
+      owner-email-column: E-mail eigenaar
+      users-count-column: Gebruikers
       phone-column: Telefoon
       email-column: E-mail
     users:
