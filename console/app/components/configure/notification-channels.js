@@ -9,7 +9,7 @@ export default class ConfigureNotificationChannelsComponent extends Component {
     @service currentUser;
     @tracked isLoading = false;
     @tracked testResponse;
-    @tracked testTitle = 'Hello World from Fastlane 🚀';
+    @tracked testTitle = 'Hello World from Fastlane';
     @tracked testMessage = 'This is a test push notification!';
     @tracked apnToken;
     @tracked fcmToken;
@@ -56,7 +56,6 @@ export default class ConfigureNotificationChannelsComponent extends Component {
             this.fetch.uploadFile.perform(
                 file,
                 {
-                    disk: 'local',
                     path: 'apn',
                     subject_uuid: this.currentUser.companyId,
                     subject_type: 'company',
@@ -82,7 +81,6 @@ export default class ConfigureNotificationChannelsComponent extends Component {
             this.fetch.uploadFile.perform(
                 file,
                 {
-                    disk: 'local',
                     path: 'firebase',
                     subject_uuid: this.currentUser.companyId,
                     subject_type: 'company',
