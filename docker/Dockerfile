@@ -3,7 +3,7 @@
 FROM dunglas/frankenphp:sha-7454826-php8.2-alpine as base
 
 # Install packages
-RUN apt-get update && apt-get install -y git bind9-utils mycli nodejs npm \
+RUN apk update && apk add git openssh bind-tools mycli nodejs npm \
   && mkdir -p /root/.ssh \
   && ssh-keyscan github.com >> /root/.ssh/known_hosts
 
