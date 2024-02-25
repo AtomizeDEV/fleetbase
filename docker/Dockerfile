@@ -1,9 +1,9 @@
 # syntax = docker/dockerfile:1.2
 # Base stage
-FROM dunglas/frankenphp:sha-7454826-php8.2-alpine as base
+FROM dunglas/frankenphp:1.1.0-php8.2-bookworm as base
 
 # Install packages
-RUN apk update && apk add git openssh bind-tools mycli nodejs npm \
+RUN apt-get update && apt-get install -y git bind9-utils mycli nodejs npm \
   && mkdir -p /root/.ssh \
   && ssh-keyscan github.com >> /root/.ssh/known_hosts
 
@@ -91,19 +91,19 @@ RUN chmod +x /fleetbase/api/deploy.sh
 FROM base as scheduler-base
 
 # Install go-crond
-RUN curl -L https://github.com/webdevops/go-crond/releases/download/0.6.1/go-crond-64-linux > /usr/local/bin/go-crond && chmod +x /usr/local/bin/go-crond
+RUN curl -L https://github.com/webdevops/go-crond/releases/download/23.12.0/go-crond.linux.amd64 > /usr/local/bin/go-crond && chmod +x /usr/local/bin/go-crond
 COPY docker/crontab ./crontab
 RUN chmod 0600 ./crontab
 
 # Scheduler dev stage
 FROM scheduler-base as scheduler-dev
 ENTRYPOINT []
-CMD ["go-crond", "--verbose", "--no-auto", "root:./crontab"]
+CMD ["go-crond", "--verbose", "root:./crontab"]
 
 # Scheduler stage
 FROM scheduler-base as scheduler
 ENTRYPOINT ["/sbin/ssm-parent", "-c", ".ssm-parent.yaml", "run", "--"]
-CMD ["go-crond", "--verbose", "--no-auto", "root:./crontab"]
+CMD ["go-crond", "--verbose", "root:./crontab"]
 
 # Events stage
 FROM base as events
