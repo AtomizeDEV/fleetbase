@@ -187,7 +187,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/atomizedev/core-api",
-                "reference": "22263acdb81c9b607cc1fb44d79d95f13cb11ac7"
+                "reference": "b54da7d87b5c403be79a2293864b0afaf14abf40"
             },
             "require": {
                 "aloha/twilio": "^5.0",
@@ -287,7 +287,7 @@
                 "fleetbase",
                 "logistics platform"
             ],
-            "time": "2024-02-26T10:45:39+00:00"
+            "time": "2024-02-26T19:46:13+00:00"
         },
         {
             "name": "atomizedev/fleetops-api",
@@ -542,16 +542,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.300.4",
+            "version": "3.300.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "27d59c22c121ce9c0041c563dc9d7270e180925c"
+                "reference": "9e0cfc4ce77df934b5f0ced6ffac29fd88237266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/27d59c22c121ce9c0041c563dc9d7270e180925c",
-                "reference": "27d59c22c121ce9c0041c563dc9d7270e180925c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9e0cfc4ce77df934b5f0ced6ffac29fd88237266",
+                "reference": "9e0cfc4ce77df934b5f0ced6ffac29fd88237266",
                 "shasum": ""
             },
             "require": {
@@ -631,9 +631,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.5"
             },
-            "time": "2024-02-23T19:10:30+00:00"
+            "time": "2024-02-26T19:10:06+00:00"
         },
         {
             "name": "aws/aws-sdk-php-laravel",
@@ -3584,16 +3584,16 @@
         },
         {
             "name": "google/gax",
-            "version": "v1.28.1",
+            "version": "v1.29.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/gax-php.git",
-                "reference": "9b128406e64bebe2718872966c73fcfb8a53a417"
+                "reference": "54a863e63ee318308637adb283f6157ccc3aabbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/gax-php/zipball/9b128406e64bebe2718872966c73fcfb8a53a417",
-                "reference": "9b128406e64bebe2718872966c73fcfb8a53a417",
+                "url": "https://api.github.com/repos/googleapis/gax-php/zipball/54a863e63ee318308637adb283f6157ccc3aabbb",
+                "reference": "54a863e63ee318308637adb283f6157ccc3aabbb",
                 "shasum": ""
             },
             "require": {
@@ -3633,9 +3633,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/gax-php/issues",
-                "source": "https://github.com/googleapis/gax-php/tree/v1.28.1"
+                "source": "https://github.com/googleapis/gax-php/tree/v1.29.1"
             },
-            "time": "2024-02-20T15:26:16+00:00"
+            "time": "2024-02-26T19:15:41+00:00"
         },
         {
             "name": "google/grpc-gcp",
