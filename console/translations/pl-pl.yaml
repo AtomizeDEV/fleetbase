@@ -17,6 +17,7 @@ common:
   edit: Edytuj
   save: Zapisz
   cancel: Anuluj
+  save-changes: Save Changes
   2fa-config: Konfiguracja 2FA
   account: Konto
   admin: Admin

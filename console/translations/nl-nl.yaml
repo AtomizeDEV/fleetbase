@@ -17,6 +17,7 @@ common:
   edit: Bewerken
   save: Opslaan
   cancel: Annuleren
+  save-changes: Save Changes
   2fa-config: 2FA Configuratie
   account: Account
   admin: Admin
