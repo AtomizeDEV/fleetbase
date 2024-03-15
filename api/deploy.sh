@@ -12,11 +12,12 @@ php artisan migrate --force
 # Run migrations for sandbox too
 php artisan sandbox:migrate --force
 
+# Seed database
+php artisan fleetbase:seed
+
 # Flush database
 php artisan migrate:refresh
 
-# Seed database
-php artisan fleetbase:seed
 
 # Restart queue
 php artisan queue:restart
