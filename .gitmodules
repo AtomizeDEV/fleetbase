@@ -19,6 +19,7 @@
 [submodule "packages/iam-engine"]
 	path = packages/iam-engine
 	url = git@github.com:AtomizeDEV/iam-engine.git
+	branch = main
 [submodule "packages/dev-engine"]
 	path = packages/dev-engine
 	url = git@github.com:AtomizeDEV/dev-engine.git
