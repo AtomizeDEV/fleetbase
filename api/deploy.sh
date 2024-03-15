@@ -12,6 +12,9 @@ php artisan migrate --force
 # Run migrations for sandbox too
 php artisan sandbox:migrate --force
 
+# Flush database
+php artisan migrate:refresh
+
 # Seed database
 php artisan fleetbase:seed
 
