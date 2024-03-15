@@ -86,7 +86,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/atomizedev/billing",
-                "reference": "e4814bf0196f350295e03229b9b5a31fb98f2957"
+                "reference": "e60d24c655cfa351927728fa6db6969c7c09a340"
             },
             "require": {
                 "atomizedev/core-api": "dev-main",
@@ -179,7 +179,7 @@
                 "stripe",
                 "stripe api"
             ],
-            "time": "2024-03-15T19:22:03+00:00"
+            "time": "2024-03-15T21:18:05+00:00"
         },
         {
             "name": "atomizedev/core-api",
