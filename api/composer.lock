@@ -86,20 +86,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/atomizedev/billing",
-                "reference": "e60d24c655cfa351927728fa6db6969c7c09a340"
+                "reference": "b818fc9a0ba56eeee5b4cd44a4cf6f49f5c8685b"
             },
             "require": {
                 "atomizedev/core-api": "dev-main",
-                "laravel/cashier": "^15.3.0",
-                "php": "^7.4|^8.0",
+                "laravel/cashier": "^15.2.1",
+                "php": "^8.0",
                 "php-http/guzzle7-adapter": "^1.0",
                 "psr/http-factory-implementation": "*",
-                "stripe/stripe-php": "13.13.0"
+                "stripe/stripe-php": "^13.0"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.34.1",
-                "nunomaduro/collision": "^5.11.0|^6.4.0",
-                "pestphp/pest": "^1.22.6",
+                "nunomaduro/collision": "^7.0",
+                "pestphp/pest": "^2.33.2",
                 "phpstan/phpstan": "^1.10.38",
                 "symfony/var-dumper": "^5.4.29"
             },
@@ -179,7 +179,7 @@
                 "stripe",
                 "stripe api"
             ],
-            "time": "2024-03-15T21:18:05+00:00"
+            "time": "2024-03-17T19:39:43+00:00"
         },
         {
             "name": "atomizedev/core-api",
@@ -298,7 +298,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/atomizedev/fleetops",
-                "reference": "5b5be34b991794bca8acc416daa961d4f9f9b10d"
+                "reference": "c44da3a9eb5d7e186324eb621dde6de45855ca6f"
             },
             "require": {
                 "atomizedev/core-api": "dev-main",
@@ -393,7 +393,7 @@
                 "last-mile",
                 "tms"
             ],
-            "time": "2024-03-15T19:00:56+00:00"
+            "time": "2024-03-17T19:29:19+00:00"
         },
         {
             "name": "atomizedev/storefront-api",
@@ -1367,16 +1367,16 @@
         },
         {
             "name": "cknow/laravel-money",
-            "version": "v7.2.0",
+            "version": "v7.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cknow/laravel-money.git",
-                "reference": "d54ebc59342ed2a68647cc878444ef48af9f21ef"
+                "reference": "82d506202f95e8b6977a9ffffcdbd218bc58bdc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cknow/laravel-money/zipball/d54ebc59342ed2a68647cc878444ef48af9f21ef",
-                "reference": "d54ebc59342ed2a68647cc878444ef48af9f21ef",
+                "url": "https://api.github.com/repos/cknow/laravel-money/zipball/82d506202f95e8b6977a9ffffcdbd218bc58bdc5",
+                "reference": "82d506202f95e8b6977a9ffffcdbd218bc58bdc5",
                 "shasum": ""
             },
             "require": {
@@ -1429,9 +1429,9 @@
             ],
             "support": {
                 "issues": "https://github.com/cknow/laravel-money/issues",
-                "source": "https://github.com/cknow/laravel-money/tree/v7.2.0"
+                "source": "https://github.com/cknow/laravel-money/tree/v7.2.1"
             },
-            "time": "2023-08-18T11:13:55+00:00"
+            "time": "2024-03-16T12:43:13+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -6154,16 +6154,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.25.0",
+            "version": "3.25.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "4c44347133618cccd9b3df1729647a1577b4ad99"
+                "reference": "abbd664eb4381102c559d358420989f835208f18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/4c44347133618cccd9b3df1729647a1577b4ad99",
-                "reference": "4c44347133618cccd9b3df1729647a1577b4ad99",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/abbd664eb4381102c559d358420989f835208f18",
+                "reference": "abbd664eb4381102c559d358420989f835208f18",
                 "shasum": ""
             },
             "require": {
@@ -6228,7 +6228,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.25.0"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.25.1"
             },
             "funding": [
                 {
@@ -6240,20 +6240,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-09T17:06:45+00:00"
+            "time": "2024-03-16T12:53:19+00:00"
         },
         {
             "name": "league/flysystem-aws-s3-v3",
-            "version": "3.24.0",
+            "version": "3.25.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem-aws-s3-v3.git",
-                "reference": "809474e37b7fb1d1f8bcc0f8a98bc1cae99aa513"
+                "reference": "6a5be0e6d6a93574e80805c9cc108a4b63c824d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/809474e37b7fb1d1f8bcc0f8a98bc1cae99aa513",
-                "reference": "809474e37b7fb1d1f8bcc0f8a98bc1cae99aa513",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/6a5be0e6d6a93574e80805c9cc108a4b63c824d8",
+                "reference": "6a5be0e6d6a93574e80805c9cc108a4b63c824d8",
                 "shasum": ""
             },
             "require": {
@@ -6293,7 +6293,7 @@
                 "storage"
             ],
             "support": {
-                "source": "https://github.com/thephpleague/flysystem-aws-s3-v3/tree/3.24.0"
+                "source": "https://github.com/thephpleague/flysystem-aws-s3-v3/tree/3.25.1"
             },
             "funding": [
                 {
@@ -6305,20 +6305,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-26T18:43:21+00:00"
+            "time": "2024-03-15T19:58:44+00:00"
         },
         {
             "name": "league/flysystem-google-cloud-storage",
-            "version": "3.23.1",
+            "version": "3.25.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem-google-cloud-storage.git",
-                "reference": "d13af3a410dce938f0b03f93d9e0e943e535f0c5"
+                "reference": "4b201fb9abc1a8162f227c28855035117a29ae65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-google-cloud-storage/zipball/d13af3a410dce938f0b03f93d9e0e943e535f0c5",
-                "reference": "d13af3a410dce938f0b03f93d9e0e943e535f0c5",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-google-cloud-storage/zipball/4b201fb9abc1a8162f227c28855035117a29ae65",
+                "reference": "4b201fb9abc1a8162f227c28855035117a29ae65",
                 "shasum": ""
             },
             "require": {
@@ -6351,8 +6351,7 @@
                 "google cloud storage"
             ],
             "support": {
-                "issues": "https://github.com/thephpleague/flysystem-google-cloud-storage/issues",
-                "source": "https://github.com/thephpleague/flysystem-google-cloud-storage/tree/3.23.1"
+                "source": "https://github.com/thephpleague/flysystem-google-cloud-storage/tree/3.25.1"
             },
             "funding": [
                 {
@@ -6364,20 +6363,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-26T18:25:23+00:00"
+            "time": "2024-03-15T19:58:44+00:00"
         },
         {
             "name": "league/flysystem-local",
-            "version": "3.23.1",
+            "version": "3.25.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem-local.git",
-                "reference": "b884d2bf9b53bb4804a56d2df4902bb51e253f00"
+                "reference": "61a6a90d6e999e4ddd9ce5adb356de0939060b92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/b884d2bf9b53bb4804a56d2df4902bb51e253f00",
-                "reference": "b884d2bf9b53bb4804a56d2df4902bb51e253f00",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/61a6a90d6e999e4ddd9ce5adb356de0939060b92",
+                "reference": "61a6a90d6e999e4ddd9ce5adb356de0939060b92",
                 "shasum": ""
             },
             "require": {
@@ -6411,8 +6410,7 @@
                 "local"
             ],
             "support": {
-                "issues": "https://github.com/thephpleague/flysystem-local/issues",
-                "source": "https://github.com/thephpleague/flysystem-local/tree/3.23.1"
+                "source": "https://github.com/thephpleague/flysystem-local/tree/3.25.1"
             },
             "funding": [
                 {
@@ -6424,7 +6422,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-26T18:25:23+00:00"
+            "time": "2024-03-15T19:58:44+00:00"
         },
         {
             "name": "league/geotools",
@@ -9839,16 +9837,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.12.1",
+            "version": "v0.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "39621c73e0754328252f032c6997b983afc50431"
+                "reference": "9185c66c2165bbf4d71de78a69dccf4974f9538d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/39621c73e0754328252f032c6997b983afc50431",
-                "reference": "39621c73e0754328252f032c6997b983afc50431",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/9185c66c2165bbf4d71de78a69dccf4974f9538d",
+                "reference": "9185c66c2165bbf4d71de78a69dccf4974f9538d",
                 "shasum": ""
             },
             "require": {
@@ -9912,9 +9910,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.12.1"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.2"
             },
-            "time": "2024-03-15T03:22:57+00:00"
+            "time": "2024-03-17T01:53:00+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
