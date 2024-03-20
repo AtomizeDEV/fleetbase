@@ -1,7 +1,7 @@
 {
     "name": "@atomizedev/console",
     "version": "0.4.0",
-    "private": false,
+    "private": true,
     "description": "Fastlane Console",
     "repository": "https://github.com/fleetbase/fleetbase",
     "license": "MIT",
