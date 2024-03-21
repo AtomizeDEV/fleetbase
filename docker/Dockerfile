@@ -57,7 +57,6 @@ COPY --chown=www-data:www-data ./Caddyfile $CADDYFILE_PATH
 # Create /fleetbase directory and set correct permissions
 RUN mkdir -p /fleetbase/api && chown -R www-data:www-data /fleetbase
 
-
 # Set working directory
 WORKDIR /fleetbase/api
 
@@ -68,7 +67,7 @@ RUN if [ -n "$GITHUB_AUTH_KEY" ]; then echo "{\"github-oauth\": {\"github.com\":
 COPY --chown=www-data:www-data ./api/composer.json ./api/composer.lock /fleetbase/api/
 
 # Pre-install Composer dependencies
-RUN su www-data -s /bin/sh -c "composer install --no-scripts --optimize-autoloader --no-dev --no-cache"
+RUN su www-data -s /bin/sh -c "composer install --no-scripts --optimize-autoloader --no-dev"
 
 # Setup application
 COPY --chown=www-data:www-data ./api /fleetbase/api
