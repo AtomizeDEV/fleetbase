@@ -7,24 +7,6 @@
         "laravel"
     ],
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/atomizedev/core-api"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/atomizedev/fleetops"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/atomizedev/storefront"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/atomizedev/billing"
-        }
-    ],
     "require": {
         "php": "^8.0",
         "atomizedev/core-api": "dev-main",
@@ -51,6 +33,24 @@
         "nunomaduro/collision": "^7.0",
         "phpunit/phpunit": "^10.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/atomizedev/core-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/atomizedev/fleetops"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/atomizedev/storefront"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/atomizedev/billing"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "App\\": "app/",
