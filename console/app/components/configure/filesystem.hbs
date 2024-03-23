@@ -21,7 +21,7 @@
             <div class="flex flex-row items-center mb-0i">
                 <UploadButton @name="firebase-service-account" @accept="text/plain,text/javascript,application/json" @onFileAdded={{this.uploadGcsCredentialsFile}} @buttonText="Upload Service Account JSON" @icon="upload" class="w-auto m-0i mt-0i" />
                 {{#if this.gcsCredentialsFile}}
-                    <div class="ml-2.5 text-sm dark:text-white text-black flex flex-row items-center border border-blue-500 rounded-lg px-2 py-0.5 -mt-1">
+                    <div class="ml-2.5 text-sm dark:text-white text-black flex flex-row items-center border border-magicpurple-500 rounded-lg px-2 py-0.5 -mt-1">
                         <FaIcon @icon="file-text" @size="sm" class="mr-2 dark:text-white text-black" />
                         <span>{{this.gcsCredentialsFile.original_filename}}</span>
                         <a href="javascript:;" class="text-red-500 ml-2" {{on "click" this.removeGcsCredentialsFile}}>
